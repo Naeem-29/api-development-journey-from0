@@ -279,8 +279,8 @@
 #from first import find_index as f , test
 # from first import *
 # import sys
-import random
-courses=['history','math','art','compsci']
+# import random
+# courses=['history','math','art','compsci']
 
 # index=find_index(courses,'art')
 # print(index)
@@ -324,10 +324,10 @@ courses=['history','math','art','compsci']
 #     print()
 
 # print(os.listdir())
-lines=['hey man you got this \n '
-    'one year is lot \n ' 
-    'you can do it \n' 
-    'i mean you have got no other choice ']
-with open("text.txt",'w') as file:
-    file.writelines(lines)
+# lines=['hey man you got this \n '
+#     'one year is lot \n ' 
+#     'you can do it \n' 
+#     'i mean you have got no other choice ']
+# with open("text.txt",'w') as file:
+#     file.writelines(lines)
 
