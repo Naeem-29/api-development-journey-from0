@@ -102,15 +102,15 @@ os.remove('filename')"""
 #     return -1
 # search()
 """fininding even numbers from the file data"""
-count=0
-with open('practice.txt','r') as f:
-    data=f.read()
-    print(data)
-    print(type(data))
-    numbers=data.split(',')
-    print(numbers)
-    for val in numbers:
-        if(int(val)%2==0):
-            count+=1
-            print(val)
-print(f'count of even numbers is : {count} times')
+# count=0
+# with open('practice.txt','r') as f:
+#     data=f.read()
+#     print(data)
+#     print(type(data))
+#     numbers=data.split(',')
+#     print(numbers)
+#     for val in numbers:
+#         if(int(val)%2==0):
+#             count+=1
+#             print(val)
+# print(f'count of even numbers is : {count} times')
